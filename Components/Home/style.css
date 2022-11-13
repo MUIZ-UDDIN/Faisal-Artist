@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.header h2 {
+  font-size: 24px;
+}
+.Artist-imgs {
+  width: 12%;
+  margin-right: 2%;
+  border-radius: 100%;
+}
+.Work-Boxes {
+  display: flex;
+  justify-content: center;
+}
+.Work-Boxes .box {
+  background-color: black;
+  color: white;
+  margin: 0 10px;
+  padding: 10%;
+  width: 145px;
+  height: 157px;
+  border-radius: 27px;
+}
+.Navbar {
+  position: absolute;
+  bottom: 12%;
+  font-size: 16px;
+}
+.Navbar ul {
+  display: flex;
+}
+.Navbar ul li {
+  list-style: none;
+}
+.Navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.Navbar ul .list {
+  margin: 0 10px;
+}
+@media screen and (max-width: 393px) {
+  .Navbar {
+    position: absolute;
+    bottom: 12%;
+    right: 11%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Navbar {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+  }
+  .Work-Boxes .box {
+    margin: 0 10px;
+    padding: 4%;
+    margin-top: -14px;
+    width: 100px;
+    height: 100px;
+    border-radius: 27px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .Navbar {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+  }
+  .Work-Boxes .box {
+    margin: 0 10px;
+    padding: 6%;
+    width: 128px;
+    height: 128px;
+    border-radius: 27px;
+  }
+}

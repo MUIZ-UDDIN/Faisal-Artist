@@ -1,0 +1,49 @@
+.setting-icon .Setting a {
+  text-decoration: none;
+  color: black;
+}
+.Lists {
+  display: flex;
+  align-items: center;
+}
+.Lists h5 {
+  margin: 8px;
+  font-size: 20px;
+}
+.Arrow {
+  border: 1px solid black;
+  width: 4%;
+}
+.Navbar {
+  position: absolute;
+  bottom: 12%;
+  font-size: 16px;
+}
+.Navbar ul {
+  display: flex;
+}
+.Navbar ul li {
+  list-style: none;
+}
+.Navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.Navbar ul .list {
+  margin: 0 10px;
+}
+@media screen and (max-width: 393px) {
+  .Navbar {
+    position: absolute;
+    bottom: 12%;
+    right: 11%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Navbar {
+    position: absolute;
+    bottom: 12%;
+    right: 8%;
+  }
+}

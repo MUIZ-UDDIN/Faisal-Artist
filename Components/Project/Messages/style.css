@@ -1,0 +1,26 @@
+.Message-area {
+  margin-top: 20%;
+}
+.Message-area input,
+.Message-area textarea {
+  background-color: black;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4%;
+}
+@media screen and (max-width: 414px) {
+  .Message-area {
+    margin-top: 38%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Message-area {
+    margin-top: 14%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .Message-area {
+    margin-top: 25%;
+  }
+}

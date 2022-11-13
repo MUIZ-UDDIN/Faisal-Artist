@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+}
+.Main-Body {
+  overflow: hidden;
+  background: rgba(245, 245, 245, 1);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 107px;
+  width: 295px;
+  height: 169px;
+}
+.Icon {
+  position: absolute;
+  top: -100%;
+  width: 80px;
+  left: 20%;
+}
+.Main-Body h2 {
+  margin-top: -50px;
+  margin-left: -10px;
+}
+.Main-Body h2 span {
+  margin-left: 50px;
+  color: black;
+  font-weight: bold;
+}
+.icon-div {
+  background: rgba(245, 245, 245, 1);
+  position: absolute;
+  height: 52px;
+  width: 150px;
+  left: 14.2%;
+  top: 276px;
+  border-bottom-right-radius: 60px;
+}
+.Button-Section {
+  margin-top: 70%;
+}
+.Button-Section .container {
+  height: 0;
+  margin: 0;
+}
+.Button-Section input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 6% 10%;
+  border-radius: 9px;
+}
+.Button-Section h5 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+@media screen and (max-width: 414px) {
+  .icon-div {
+    position: absolute;
+    height: 52px;
+    width: 150px;
+    left: 14.6%;
+    top: 276px;
+  }
+}
+@media screen and (max-width: 393px) {
+  .icon-div {
+    position: absolute;
+    height: 52px;
+    width: 150px;
+    left: 12.4%;
+    top: 276px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .icon-div {
+    position: absolute;
+    height: 52px;
+    width: 150px;
+    left: 10.7%;
+    top: 270px;
+  }
+  .Button-Section {
+    margin-top: 30%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .icon-div {
+    position: absolute;
+    height: 52px;
+    width: 150px;
+    left: 9.2%;
+    top: 270px;
+  }
+}

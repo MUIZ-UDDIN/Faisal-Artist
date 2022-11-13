@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.header h2 {
+  font-size: 24px;
+}
+.Lists {
+  display: flex;
+  align-items: center;
+}
+.Lists h5 {
+  margin: 0 8px;
+  font-size: 20px;
+}
+.Icon {
+  background: rgba(217, 217, 217, 1);
+  height: 51px;
+  width: 56px;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+.Arrow {
+  border: 1px solid black;
+  width: 4%;
+}
+.Navbar {
+  position: absolute;
+  bottom: 12%;
+  font-size: 16px;
+}
+.Navbar ul {
+  display: flex;
+}
+.Navbar ul li {
+  list-style: none;
+}
+.Navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.Navbar ul .list {
+  margin: 0 10px;
+}

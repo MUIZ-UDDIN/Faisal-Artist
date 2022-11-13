@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  margin: 0;
+}
+.Main-Body {
+  margin-top: 20%;
+}
+.Input-Section {
+  margin-top: 30%;
+}
+.Input-Section input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 6% 10%;
+  border-radius: 9px;
+  margin: 4px 0;
+}
+.Input-Section input::placeholder {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.Ending-Section {
+  margin-top: 30%;
+}
+@media screen and (max-width: 375px) {
+  .Input-Section {
+    margin-top: 18%;
+  }
+  .Ending-Section {
+    margin-top: 6%;
+  }
+}

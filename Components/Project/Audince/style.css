@@ -1,0 +1,25 @@
+.images img {
+  width: 50%;
+  border-radius: 4%;
+  margin: 4% 0;
+}
+@media screen and (max-width: 393px) {
+  .images img {
+    width: 48%;
+    border-radius: 4%;
+    margin: 4% 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .images img {
+    width: 36%;
+    border-radius: 4%;
+    margin: 4% 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .images img {
+    width: 44%;
+    border-radius: 4%;
+    margin: 4% 0;
+  }
